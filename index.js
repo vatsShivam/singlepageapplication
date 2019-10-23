@@ -92,7 +92,7 @@ function logged(){
       g=e.value;
       h=f.value;
       if(c==g && d==h){
-        history.pushState(null,null,loggedin);
+        history.pushState(null,null,'loggedin');
          deletes.style.display="none";
          var log4=document.createElement('p');
          log4.textContent="Thanks "+ c +"For logged in ";
