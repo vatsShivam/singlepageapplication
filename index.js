@@ -10,12 +10,17 @@ var deletes=document.getElementById('delete');
 var logshows=document.getElementById('logshow');
 lo.addEventListener('click',satyam);
 k.addEventListener('click',shivam);
+/*
 window.onload = function() {
    shivam();
    
  };
+
+By default, onload is fired when the entire page loads, including its content (images, CSS, scripts, etc.).
+ but The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.,
+*/
  
- 
+ window.addEventListener('DOMContentLoaded', shivam);
 function shivam(){
     
    var head=document.createElement('p');
