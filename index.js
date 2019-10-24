@@ -11,7 +11,7 @@ var logshows=document.getElementById('logshow');
 lo.addEventListener('click',satyam);
 k.addEventListener('click',shivam);
 window.onload = function() {
-   this.shivam();
+   shivam();
    
  };
  
