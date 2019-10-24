@@ -1,3 +1,4 @@
+(function (){
 var k=document.getElementById('in');
 var s=document.getElementById('heading');
 var input=document.getElementById('register1');
@@ -111,3 +112,4 @@ function logged(){
      e.value='';
      f.value='';
 }
+})();
