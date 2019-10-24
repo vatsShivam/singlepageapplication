@@ -21,10 +21,13 @@
       lo.addEventListener('click',satyam1);  
       var btn=document.createElement('button');
       btn.addEventListener('click',local);
+      /*
       btn.style.marginTop="70px";
       btn.style.marginLeft="600px";
+      */
       btn.textContent="Register";
       reg.appendChild(btn);
+      btn.setAttribute("class","registerbtn");
       function satyam1(){
          s.style.display="none";
          s1.style.display="inherit";
@@ -41,8 +44,11 @@
       reg.style.display="none";
       s1.append(head);
       var but=document.createElement('button');
+      /*
       but.style.marginTop="70px";
       but.style.marginLeft="600px";
+      */
+      but.setAttribute("class","loginbtn");
       but.textContent="Login";
       but.addEventListener('click',logged);
       log.appendChild(but);
