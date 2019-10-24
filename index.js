@@ -21,21 +21,17 @@
       lo.addEventListener('click',satyam1);  
       var btn=document.createElement('button');
       btn.addEventListener('click',local);
-      /*
-      btn.style.marginTop="70px";
-      btn.style.marginLeft="600px";
-      */
       btn.textContent="Register";
       reg.appendChild(btn);
       btn.setAttribute("class","registerbtn");
-      function satyam1(){
-         s.style.display="none";
-         s1.style.display="inherit";
-         reg.style.display="none";
-         log.style.display="inherit";
-         input1.style.display="inherit";
-         input.style.display="none";
-      }
+   }
+   function satyam1(){
+      s.style.display="none";
+      s1.style.display="inherit";
+      reg.style.display="none";
+      log.style.display="inherit";
+      input1.style.display="inherit";
+      input.style.display="none";
    }
    function satyam(){
       var head=document.createElement('p');
@@ -44,10 +40,6 @@
       reg.style.display="none";
       s1.append(head);
       var but=document.createElement('button');
-      /*
-      but.style.marginTop="70px";
-      but.style.marginLeft="600px";
-      */
       but.setAttribute("class","loginbtn");
       but.textContent="Login";
       but.addEventListener('click',logged);
@@ -56,15 +48,15 @@
       input.style.display="none";
       lo.removeEventListener("click",satyam);
       k.addEventListener('click', shivam1);
-      function shivam1(){
-         s.style.display="inherit";
-         s1.style.display="none";
-         reg.style.display="inherit";
-         log.style.display="none";
-         input.style.display="inherit";
-         input1.style.display="none";
-      }  
    }
+   function shivam1(){
+      s.style.display="inherit";
+      s1.style.display="none";
+      reg.style.display="inherit";
+      log.style.display="none";
+      input.style.display="inherit";
+      input1.style.display="none";
+   } 
    function local(){
       var a=document.getElementById('name')
       var b=document.getElementById('password');
