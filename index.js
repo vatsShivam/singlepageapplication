@@ -84,8 +84,9 @@
          log4.setAttribute("class","finalpage");
          const logout=document.createElement('button');
          logout.textContent="logout";
+         logout.setAttribute("class","logoutbtn");
          log4.textContent="Thanks "+ c +"For logged in ";
-         logshows.appendChild(logout)
+         logshows.appendChild(logout);
          logshows.appendChild(log4);
       }
       e.value='';
