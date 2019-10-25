@@ -77,7 +77,7 @@
       if(c==g && d==h){
          let stateObj = {
             foo: "bar",
-                };
+      };
          history.pushState(stateObj,"","loggedin");
          deletes.style.display="none";
          var log4=document.createElement('p');
