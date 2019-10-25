@@ -84,8 +84,6 @@
          log4.textContent="Thanks "+ c +"For logged in ";
          logshows.appendChild(log4);
       }
-      console.log(g);
-      console.log(h);
       e.value='';
       f.value='';
 }
