@@ -81,6 +81,7 @@
          history.pushState(stateObj,"","loggedin");
          deletes.style.display="none";
          var log4=document.createElement('p');
+         log4.setAttribute("class","finalpage");
          log4.textContent="Thanks "+ c +"For logged in ";
          logshows.appendChild(log4);
       }
