@@ -82,7 +82,10 @@
          deletes.style.display="none";
          var log4=document.createElement('p');
          log4.setAttribute("class","finalpage");
+         const logout=document.createElement('button');
+         logout.textContent="logout";
          log4.textContent="Thanks "+ c +"For logged in ";
+         logshows.appendChild(logout)
          logshows.appendChild(log4);
       }
       e.value='';
