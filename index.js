@@ -77,15 +77,13 @@
       if(c==g && d==h){
          let stateObj = {
             foo: "bar",
-                };
+         };
          history.pushState(stateObj,"","loggedin");
          deletes.style.display="none";
          var log4=document.createElement('p');
          log4.textContent="Thanks "+ c +"For logged in ";
          logshows.appendChild(log4);
       }
-      console.log(g);
-      console.log(h);
       e.value='';
       f.value='';
 }
