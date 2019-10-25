@@ -1,4 +1,9 @@
-
+#heading{
+    font-weight:bold;
+}
+#heading1{
+font-weight:bold;
+}
 .registerbtn{
     margin-top: 70px;
     margin-left:600px;

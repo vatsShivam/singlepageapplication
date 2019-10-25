@@ -1,14 +1,14 @@
 (function (){
-   var k=document.getElementById('in');
-   var s=document.getElementById('heading');
-   var input=document.getElementById('register1');
-   var input1=document.getElementById('login1');
-   var s1=document.getElementById('heading1');
-   var lo=document.getElementById('out');
-   var reg=document.getElementById('register');
-   var log=document.getElementById('login');
-   var deletes=document.getElementById('delete');
-   var logshows=document.getElementById('logshow');
+   const k=document.getElementById('in');
+   const s=document.getElementById('heading');
+   const input=document.getElementById('register1');
+   const input1=document.getElementById('login1');
+   const s1=document.getElementById('heading1');
+   const lo=document.getElementById('out');
+   const reg=document.getElementById('register');
+   const log=document.getElementById('login');
+   const deletes=document.getElementById('delete');
+   const logshows=document.getElementById('logshow');
    lo.addEventListener('click',satyam);
    k.addEventListener('click',shivam);
    window.addEventListener('DOMContentLoaded', shivam);
@@ -77,15 +77,17 @@
       if(c==g && d==h){
          let stateObj = {
             foo: "bar",
-                };
+         };
          history.pushState(stateObj,"","loggedin");
          deletes.style.display="none";
          var log4=document.createElement('p');
+         log4.setAttribute("class","finalpage");
+         const logout=document.createElement('button');
+         logout.textContent="logout";
          log4.textContent="Thanks "+ c +"For logged in ";
+         logshows.appendChild(logout)
          logshows.appendChild(log4);
       }
-      console.log(g);
-      console.log(h);
       e.value='';
       f.value='';
 }
