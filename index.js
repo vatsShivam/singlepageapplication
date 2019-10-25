@@ -23,7 +23,7 @@
       btn.addEventListener('click',local);
       btn.textContent="Register";
       reg.appendChild(btn);
-      btn.setAttribute("class","registerbtn");
+      btn.classList.add("registerbtn");
    }
    function satyam1(){
       s.style.display="none";
@@ -40,7 +40,7 @@
       reg.style.display="none";
       s1.append(head);
       var but=document.createElement('button');
-      but.setAttribute("class","loginbtn");
+      but.classList.add("loginbtn");
       but.textContent="Login";
       but.addEventListener('click',logged);
       log.appendChild(but);
