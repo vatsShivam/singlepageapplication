@@ -2,8 +2,10 @@
 .registerbtn{
     margin-top: 70px;
     margin-left:600px;
+    border-radius:10px;
 }
 .loginbtn{
     margin-top: 70px;
     margin-left:600px;
+    border-radius: 10px;
 }
