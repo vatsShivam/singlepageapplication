@@ -1,4 +1,6 @@
 (function (){
+   var shivam =90;
+   var k ;
    const k=document.getElementById('in');
    const s=document.getElementById('heading');
    const input=document.getElementById('register1');
